@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './style/css/Style.css'
 import CoolImageWithBoxButtons from './components/CoolImageWithBoxButtons'
 
 class App extends Component {

@@ -24,22 +24,9 @@ class CoolImageWithBoxButtons extends React.Component {
           }
 				/>
         <TopBoxButton
-          style={
-            {
-              position: "absolute",
-              transform: "translate(430%, 394%)"
-            }
-          }
+          
         />
-        <span
-          style={
-            {
-              fontSize: "3vw",
-              position: "absolute",
-              transform: "translate(850%, 1050%)"
-            }
-          }
-        >Work</span>
+        
 			</div>
 		);
 	}

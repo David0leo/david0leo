@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,mBAAI;EACF,QAAQ,EAAE,QAAQ;EAClB,SAAS,EAAE,qBAAqB;EAChC,MAAM,EAAE,OAAO;EACf,OAAO,EAAE,CAAC;AAGZ,oBAAK;EACH,SAAS,EAAE,GAAG;EACd,QAAQ,EAAE,QAAQ;EAClB,SAAS,EAAE,sBAAsB;EACjC,OAAO,EAAE,CAAC;EACV,KAAK,EAAE,YAAY;;AAIvB,qBAAsB;EACpB,KAAK,EAAE,IAAI",
+"sources": ["../scss/components/TopBoxButton.scss"],
+"names": [],
+"file": "Style.css"
+}
