@@ -1,20 +1,32 @@
 .top-box-button {
+  
+
   svg {
     position: absolute;
-    transform: translate(430%, 394%);
+    transform: translate(330.4%, 534%);
     cursor: pointer;
     z-index: 1;
+    transition: all 0.2s ease;
+  }
+
+  svg:hover {
+    color: $md-blue-700;
+
+    + span {
+      color: $md-blue-700;
+    }
+  }
+
+  svg:active {
+    color: gray;
   }
 
   span {
-    font-size: 3vw;
+    font-size: 1em;
     position: absolute;
-    transform: translate(850%, 1050%);
+    transform: translate(900%, 1950%);
     z-index: 0;
     color: currentColor;
   }
 }
 
-.top-box-button:hover {
-  color: blue;
-}

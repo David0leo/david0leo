@@ -6,27 +6,18 @@ class CoolImageWithBoxButtons extends React.Component {
 		return (
 			<div 
         className="cool-image-with-box-buttons"
-        style={
-          {
-            display: "table",
-          }
-        }
       >
-				<img
-					src={require("../images/IMG_4175.JPG")}
-					alt="no"
-					style={
-            {
-              transform: "rotate(90deg)",
-              width: "100%",
-              position: "absolute", 
-            }
-          }
-				/>
-        <TopBoxButton
-          
-        />
-        
+        <div className="float-container">
+          <img
+            src={require("../images/IMG_4175.JPG")}
+            alt="no"
+          />
+        </div>
+        <div className="float-container">
+          <TopBoxButton
+            
+          />
+        </div>
 			</div>
 		);
 	}

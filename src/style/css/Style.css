@@ -1,16 +1,31 @@
+.cool-image-with-box-buttons {
+  width: 100%; }
+  .cool-image-with-box-buttons .float-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%; }
+  .cool-image-with-box-buttons img {
+    background-size: cover;
+    width: 100%; }
+
 .top-box-button svg {
   position: absolute;
-  transform: translate(430%, 394%);
+  transform: translate(330.4%, 534%);
   cursor: pointer;
-  z-index: 1; }
+  z-index: 1;
+  transition: all 0.2s ease; }
+.top-box-button svg:hover {
+  color: #1976d2; }
+  .top-box-button svg:hover + span {
+    color: #1976d2; }
+.top-box-button svg:active {
+  color: gray; }
 .top-box-button span {
-  font-size: 3vw;
+  font-size: 1em;
   position: absolute;
-  transform: translate(850%, 1050%);
+  transform: translate(900%, 1950%);
   z-index: 0;
   color: currentColor; }
-
-.top-box-button:hover {
-  color: blue; }
 
 /*# sourceMappingURL=Style.css.map */
