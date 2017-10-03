@@ -3,22 +3,26 @@
 
   svg {
     position: absolute;
-    transform: translate(330.4%, 534%);
     cursor: pointer;
     z-index: 1;
     transition: all 0.2s ease;
-  }
+    color: black;
 
-  svg:hover {
-    color: $md-blue-700;
-
-    + span {
-      color: $md-blue-700;
+    g {
+      pointer-events: bounding-box;
     }
-  }
 
-  svg:active {
-    color: gray;
+    g:hover {
+      path {
+        stroke: $md-blue-700;
+      }
+    }
+
+    g:active {
+      path {
+        stroke: $md-blue-900;
+      }
+    }
   }
 }
 

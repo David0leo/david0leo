@@ -16,21 +16,18 @@
       position: absolute;
       width: 100%; }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  .cool-image-with-box-buttons {
-    transform: scale(2); } }
 .top-box-button svg {
   position: absolute;
-  transform: translate(330.4%, 534%);
   cursor: pointer;
   z-index: 1;
-  transition: all 0.2s ease; }
-.top-box-button svg:hover {
-  color: #1976d2; }
-  .top-box-button svg:hover + span {
-    color: #1976d2; }
-.top-box-button svg:active {
-  color: gray; }
+  transition: all 0.2s ease;
+  color: black; }
+  .top-box-button svg g {
+    pointer-events: bounding-box; }
+  .top-box-button svg g:hover path {
+    stroke: #1976d2; }
+  .top-box-button svg g:active path {
+    stroke: #0d47a1; }
 
 .middle-box-button svg {
   position: absolute;
