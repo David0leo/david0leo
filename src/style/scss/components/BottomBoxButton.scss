@@ -1,0 +1,22 @@
+.bottom-box-button {
+  
+    svg {
+      position: absolute;
+      transform: translate(316%, 791%);
+      cursor: pointer;
+      z-index: 1;
+      transition: all 0.2s ease;
+    }
+  
+    svg:hover {
+      color: $md-red-700;
+  
+      + span {
+        color: $md-red-700;
+      }
+    }
+  
+    svg:active {
+      color: gray;
+    }
+  }

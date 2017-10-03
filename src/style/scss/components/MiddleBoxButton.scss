@@ -1,19 +1,18 @@
-.top-box-button {
-  
+.middle-box-button {
 
   svg {
     position: absolute;
-    transform: translate(330.4%, 534%);
+    transform: translate(319%, 703%);
     cursor: pointer;
     z-index: 1;
     transition: all 0.2s ease;
   }
 
   svg:hover {
-    color: $md-blue-700;
+    color: $md-green-700;
 
     + span {
-      color: $md-blue-700;
+      color: $md-green-700;
     }
   }
 
@@ -21,4 +20,3 @@
     color: gray;
   }
 }
-

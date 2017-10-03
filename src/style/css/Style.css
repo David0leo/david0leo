@@ -5,10 +5,20 @@
     top: 0px;
     left: 0px;
     width: 100%; }
-  .cool-image-with-box-buttons img {
-    background-size: cover;
-    width: 100%; }
+    .cool-image-with-box-buttons .float-container h1 {
+      padding-top: 10%;
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      font-size: 5vw; }
+    .cool-image-with-box-buttons .float-container img {
+      background-size: cover;
+      position: absolute;
+      width: 100%; }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .cool-image-with-box-buttons {
+    transform: scale(2); } }
 .top-box-button svg {
   position: absolute;
   transform: translate(330.4%, 534%);
@@ -21,11 +31,31 @@
     color: #1976d2; }
 .top-box-button svg:active {
   color: gray; }
-.top-box-button span {
-  font-size: 1em;
+
+.middle-box-button svg {
   position: absolute;
-  transform: translate(900%, 1950%);
-  z-index: 0;
-  color: currentColor; }
+  transform: translate(319%, 703%);
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.2s ease; }
+.middle-box-button svg:hover {
+  color: #388e3c; }
+  .middle-box-button svg:hover + span {
+    color: #388e3c; }
+.middle-box-button svg:active {
+  color: gray; }
+
+.bottom-box-button svg {
+  position: absolute;
+  transform: translate(316%, 791%);
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.2s ease; }
+.bottom-box-button svg:hover {
+  color: #d32f2f; }
+  .bottom-box-button svg:hover + span {
+    color: #d32f2f; }
+.bottom-box-button svg:active {
+  color: gray; }
 
 /*# sourceMappingURL=Style.css.map */
