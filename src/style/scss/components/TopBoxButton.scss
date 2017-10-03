@@ -3,25 +3,28 @@
 
   svg {
     position: absolute;
-    cursor: pointer;
+    
     z-index: 1;
-    transition: all 0.2s ease;
-    color: black;
+    
+    // color: black;
 
     g {
-      pointer-events: bounding-box;
+      // pointer-events: inherit;
+      user-select: none;
+      cursor: pointer;
+      path {
+        fill: rgba(0, 0, 0, 0.01);
+      }
+      transition: all 0.2s ease;
     }
 
     g:hover {
-      path {
-        stroke: $md-blue-700;
-      }
+      
+      color: $md-blue-700;
     }
 
     g:active {
-      path {
-        stroke: $md-blue-900;
-      }
+      color: $md-blue-900;
     }
   }
 }

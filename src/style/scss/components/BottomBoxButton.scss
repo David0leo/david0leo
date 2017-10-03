@@ -2,21 +2,26 @@
   
     svg {
       position: absolute;
-      transform: translate(316%, 791%);
-      cursor: pointer;
+      // transform: translate(316%, 791%);
+      // cursor: pointer;
       z-index: 1;
-      transition: all 0.2s ease;
-    }
-  
-    svg:hover {
-      color: $md-red-700;
-  
-      + span {
+      // transition: all 0.2s ease;
+
+      g {
+        user-select: none;
+        cursor: pointer;
+        path {
+          fill: rgba(0, 0, 0, 0.01);
+        }
+        transition: all 0.2s ease;
+      }
+
+      g:hover {
         color: $md-red-700;
       }
-    }
   
-    svg:active {
-      color: gray;
+      g:active {
+        color: $md-red-900;
+      }
     }
   }

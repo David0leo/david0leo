@@ -18,41 +18,44 @@
 
 .top-box-button svg {
   position: absolute;
-  cursor: pointer;
-  z-index: 1;
-  transition: all 0.2s ease;
-  color: black; }
+  z-index: 1; }
   .top-box-button svg g {
-    pointer-events: bounding-box; }
-  .top-box-button svg g:hover path {
-    stroke: #1976d2; }
-  .top-box-button svg g:active path {
-    stroke: #0d47a1; }
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.2s ease; }
+    .top-box-button svg g path {
+      fill: rgba(0, 0, 0, 0.01); }
+  .top-box-button svg g:hover {
+    color: #1976d2; }
+  .top-box-button svg g:active {
+    color: #0d47a1; }
 
 .middle-box-button svg {
   position: absolute;
-  transform: translate(319%, 703%);
-  cursor: pointer;
-  z-index: 1;
-  transition: all 0.2s ease; }
-.middle-box-button svg:hover {
-  color: #388e3c; }
-  .middle-box-button svg:hover + span {
+  z-index: 1; }
+  .middle-box-button svg g {
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.2s ease; }
+    .middle-box-button svg g path {
+      fill: rgba(0, 0, 0, 0.01); }
+  .middle-box-button svg g:hover {
     color: #388e3c; }
-.middle-box-button svg:active {
-  color: gray; }
+  .middle-box-button svg g:active {
+    color: #1b5e20; }
 
 .bottom-box-button svg {
   position: absolute;
-  transform: translate(316%, 791%);
-  cursor: pointer;
-  z-index: 1;
-  transition: all 0.2s ease; }
-.bottom-box-button svg:hover {
-  color: #d32f2f; }
-  .bottom-box-button svg:hover + span {
+  z-index: 1; }
+  .bottom-box-button svg g {
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.2s ease; }
+    .bottom-box-button svg g path {
+      fill: rgba(0, 0, 0, 0.01); }
+  .bottom-box-button svg g:hover {
     color: #d32f2f; }
-.bottom-box-button svg:active {
-  color: gray; }
+  .bottom-box-button svg g:active {
+    color: #b71c1c; }
 
 /*# sourceMappingURL=Style.css.map */

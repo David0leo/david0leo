@@ -3,51 +3,45 @@ import React from "react";
 const TopBoxButton = ({ primaryColor = "black", size = 200, style }) => {
 	return (
 		<div className="top-box-button">
-      <svg viewBox="0 0 1920 2560">
-      <g>
-      <text
-        width="10"
-					fontSize="25"
-					fontWeight="normal"
-					fill="currentColor"
-					x="1140"
-					y="1400"
-					transform="rotate(2.5)"
-				></text>
-      </g>
-      
-        <g>
-        <path
-          d="M1131.29 1386.25L1426.5 1400.11L1426.5 1204.37L1134.46 1194.06L1131.29 1386.25Z"
-          stroke="currentColor"
-          strokeWidth="3"
-          fill="none"
-        >
-        </path>
-        <path
-          d="M1130.9 1387.72L1151.08 1387.72L1124.45 1402.66L1110.4 1401.06L1130.9 1387.72Z"
-          stroke="currentColor"
-          strokeWidth="3"
-          fill="none"
-        >
-        </path>
-        <path
-          d="M1110.4 1231.51L1134.04 1195.38L1134.04 1210.8L1108.95 1267.21L1110.4 1231.51Z"
-          stroke="currentColor"
-          strokeWidth="3"
-          fill="none"
-        >
-        </path>
-        <path
-          d="M1130.94 1386.81C1132.59 1284.03 1133.63 1219.8 1134.04 1194.1C1134.04 1194 1133.9 1193.96 1133.85 1194.04C1130.72 1199.04 1122.9 1211.53 1110.4 1231.51L1110.4 1400.11L1130.94 1386.81Z"
-          stroke="currentColor"
-          strokeWidth="3"
-          fill="none"
-        >
-        </path>
-        </g>
-        
-      </svg>
+			<svg viewBox="0 0 1920 2560">
+				<g>
+					<text
+						width="10"
+						fontSize="80"
+						fontWeight="normal"
+						fill="currentColor"
+						x="1240"
+						y="1270"
+						transform="rotate(2.5)"
+					>
+						Work
+					</text>
+					<path
+						d="M1131.29 1386.25L1426.5 1400.11L1426.5 1204.37L1134.46 1194.06L1131.29 1386.25Z"
+						stroke="currentColor"
+						strokeWidth="3"
+						fill="none"
+					/>
+					<path
+						d="M1130.9 1387.72L1151.08 1387.72L1124.45 1402.66L1110.4 1401.06L1130.9 1387.72Z"
+						stroke="currentColor"
+						strokeWidth="3"
+						fill="none"
+					/>
+					<path
+						d="M1110.4 1231.51L1134.04 1195.38L1134.04 1210.8L1108.95 1267.21L1110.4 1231.51Z"
+						stroke="currentColor"
+						strokeWidth="3"
+						fill="none"
+					/>
+					<path
+						d="M1130.94 1386.81C1132.59 1284.03 1133.63 1219.8 1134.04 1194.1C1134.04 1194 1133.9 1193.96 1133.85 1194.04C1130.72 1199.04 1122.9 1211.53 1110.4 1231.51L1110.4 1400.11L1130.94 1386.81Z"
+						stroke="currentColor"
+						strokeWidth="3"
+						fill="none"
+					/>
+				</g>
+			</svg>
 
 			{/* <svg width="17.5%" viewBox="0 0 120 80">
 				<text
