@@ -16,9 +16,27 @@
       position: absolute;
       width: 100%; }
 
+.box-buttons svg > * {
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.2s ease; }
+  .box-buttons svg > * path {
+    fill: rgba(0, 0, 0, 0.01); }
+.box-buttons svg .top-box:hover {
+  color: #1976d2; }
+.box-buttons svg .top-box:active {
+  color: #0d47a1; }
+.box-buttons svg .middle-box:hover {
+  color: #388e3c; }
+.box-buttons svg .middle-box:active {
+  color: #1b5e20; }
+.box-buttons svg .bottom-box:hover {
+  color: #d32f2f; }
+.box-buttons svg .bottom-box:active {
+  color: #b71c1c; }
+
 .top-box-button svg {
-  position: absolute;
-  z-index: 1; }
+  position: absolute; }
   .top-box-button svg g {
     user-select: none;
     cursor: pointer;
@@ -31,8 +49,7 @@
     color: #0d47a1; }
 
 .middle-box-button svg {
-  position: absolute;
-  z-index: 1; }
+  position: absolute; }
   .middle-box-button svg g {
     user-select: none;
     cursor: pointer;
@@ -45,8 +62,7 @@
     color: #1b5e20; }
 
 .bottom-box-button svg {
-  position: absolute;
-  z-index: 1; }
+  position: absolute; }
   .bottom-box-button svg g {
     user-select: none;
     cursor: pointer;

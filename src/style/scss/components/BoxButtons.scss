@@ -1,0 +1,36 @@
+.box-buttons {
+  svg {
+    > * {
+      user-select: none;
+      cursor: pointer;
+      path {
+        fill: rgba(0, 0, 0, 0.01);
+      }
+      transition: all 0.2s ease;
+    }
+
+    .top-box:hover {
+      color: $md-blue-700;
+    }
+    
+    .top-box:active {
+      color: $md-blue-900;
+    }
+
+    .middle-box:hover {
+      color: $md-green-700;
+    }
+
+    .middle-box:active {
+      color: $md-green-900;
+    }
+
+    .bottom-box:hover {
+      color: $md-red-700;
+    }
+
+    .bottom-box:active {
+      color: $md-red-900
+    }
+  }
+}
