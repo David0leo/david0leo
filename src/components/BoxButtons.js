@@ -1,10 +1,10 @@
 import React from "react";
 
-const BoxButtons = ({}) => {
+const BoxButtons = (props) => {
 	return (
 		<div className="box-buttons">
 			<svg width="100%" height="100%" viewBox="0 0 1920 2560">
-				<g className="top-box">
+				<g className="top-box" onClick={props.topBoxCallback}>
 					<text
 						width="10"
 						fontSize="80"
