@@ -45,7 +45,7 @@ const BoxButtons = (props) => {
 						fill="none"
 					/>
 				</g>
-				<g className="middle-box">
+				<g className="middle-box" onClick={props.middleBoxCallback}>
 					<text
 						fontSize="80"
 						fontWeight="normal"
@@ -77,7 +77,7 @@ const BoxButtons = (props) => {
 						fill="none"
 					/>
 				</g>
-				<g className="bottom-box">
+				<g className="bottom-box" onClick={props.bottomBoxCallback}>
 					<text
 						fontSize="80"
 						fontWeight="normal"

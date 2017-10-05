@@ -36,43 +36,26 @@
 .box-buttons svg .bottom-box:active {
   color: #b71c1c; }
 
-.top-box-button svg {
-  position: absolute; }
-  .top-box-button svg g {
-    user-select: none;
-    cursor: pointer;
-    transition: all 0.2s ease; }
-    .top-box-button svg g path {
-      fill: rgba(0, 0, 0, 0.01); }
-  .top-box-button svg g:hover {
-    color: #1976d2; }
-  .top-box-button svg g:active {
-    color: #0d47a1; }
+.work-section {
+  min-height: 100vh; }
+  .work-section .title-bar {
+    background: #1976d2; }
 
-.middle-box-button svg {
-  position: absolute; }
-  .middle-box-button svg g {
-    user-select: none;
-    cursor: pointer;
-    transition: all 0.2s ease; }
-    .middle-box-button svg g path {
-      fill: rgba(0, 0, 0, 0.01); }
-  .middle-box-button svg g:hover {
-    color: #388e3c; }
-  .middle-box-button svg g:active {
-    color: #1b5e20; }
+.about-section {
+  min-height: 100vh; }
+  .about-section .title-bar {
+    background: #388e3c; }
 
-.bottom-box-button svg {
-  position: absolute; }
-  .bottom-box-button svg g {
-    user-select: none;
-    cursor: pointer;
-    transition: all 0.2s ease; }
-    .bottom-box-button svg g path {
-      fill: rgba(0, 0, 0, 0.01); }
-  .bottom-box-button svg g:hover {
-    color: #d32f2f; }
-  .bottom-box-button svg g:active {
-    color: #b71c1c; }
+.contact-section {
+  min-height: 100vh; }
+  .contact-section .title-bar {
+    background: #d32f2f; }
+
+.title-bar {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 5vw;
+  padding: 10px;
+  text-align: center; }
 
 /*# sourceMappingURL=Style.css.map */

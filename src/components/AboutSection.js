@@ -1,11 +1,15 @@
 import React from 'react';
+import TitleBar from "./TitleBar";
 
-const AboutSection = (props) => {
-  return (
-    <div className="about-section">
-      <h1>About</h1>
-    </div>
-  )
+class AboutSection extends React.Component {
+  render() {
+    return (
+      <div className="about-section">
+        <TitleBar title={"About"}/>
+      </div>
+    )
+  }
+  
 }
 
 export default AboutSection

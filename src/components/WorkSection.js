@@ -1,11 +1,14 @@
-import React from 'react';
+import React from "react";
+import TitleBar from "./TitleBar";
 
-const WorkSection = (props) => {
-  return (
-    <div className="work-section">
-      <h1>Work</h1>
-    </div>
-  )
+class WorkSection extends React.Component {
+	render() {
+		return (
+			<div className="work-section" >
+				<TitleBar title={"Work"}/>
+			</div>
+		);
+	}
 }
 
-export default WorkSection
+export default WorkSection;

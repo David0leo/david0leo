@@ -13,16 +13,28 @@ class CoolImageWithBoxButtons extends React.Component {
 				</div>
 				<div className="float-container">
 					<BoxButtons 
-						topBoxCallback={this.topBoxCallback}
+						topBoxCallback={this.props.topBoxCallback}
+						middleBoxCallback={this.props.middleBoxCallback}
+						bottomBoxCallback={this.props.bottomBoxCallback}
 					/>
 				</div>
 			</div>
 		);
 	}
 
+	// Not great flow, but if you want something
+	// else to happen you can add it to these functions
 	topBoxCallback = () => {
-		alert("topBoxClicked")
-	} 
+		this.props.topBoxCallback()
+	}
+
+	middleBoxCallback = () => {
+		this.props.middleBoxCallback()
+	}
+
+	bottomBoxCallback = () => {
+		this.props.bottomBoxCallback()
+	}
 }
 
 export default CoolImageWithBoxButtons;
