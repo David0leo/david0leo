@@ -10,12 +10,12 @@ const WorkCard = ({
 }) => {
 	return (
 		<div className="work-card">
-			<img src={imgSrc} alt="[work-card-image]" />
+			<img src={imgSrc} alt="[work-card]" />
 			<div className="work-card-body">
 				<h1>{header}</h1>
 				<p>{details}</p>
 				<a href={sourceHref}>
-					<img src={linkImageSrc} alt={"[link-image]"} />
+					<img src={linkImageSrc} alt={"[link]"} />
 				</a>
 			</div>
 		</div>

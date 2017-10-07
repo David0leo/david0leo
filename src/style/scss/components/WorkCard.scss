@@ -3,9 +3,17 @@
 	max-width: 100%;
 	box-shadow: 7px 7px 10px 5px rgba(0, 0, 0, 0.2);
 	border-radius: 1em;
-	overflow: hidden;
+	// overflow: hidden;
   margin: 5%;
-  border: 2px solid rgba(0, 0, 0, 0.2);
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	
+	@include tablet {
+		max-width: 40%;
+	}
+
+	@include desktop {
+		max-width: 25%;
+	}
 
 	> img {
 		width: 100%;
@@ -17,13 +25,26 @@
 		text-align: center;
 
 		h1 {
-      font-size: 1.5em;
+			font-size: 20px;
+			@include tablet {
+				font-size: 25px;
+			}
+
+			@include desktop {
+				font-size: 30px;
+			}
 		}
 
 		p {
-			font-size: 1em;
-			text-justify: left;
+			font-size: 16px;
 			padding: 10px;
+			@include tablet {
+				font-size: 20px;
+			}
+
+			@include desktop {
+				font-size: 25px;
+			}
 		}
 		a {
       
@@ -45,20 +66,6 @@
       img:active {
         background: rgba(0, 0, 0, 0.2);
       }
-		}
-	}
-}
-
-@media only screen and (min-width: 1200px) {
-	.work-card {
-		max-width: 25%;
-
-		h1 {
-			font-size: 2em;
-		}
-
-		p {
-			font-size: 1em;
 		}
 	}
 }

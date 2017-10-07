@@ -1,13 +1,16 @@
 .title-bar {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   color: white;
-  font-size: 5vw;
+  font-size: 20px;
   padding: 10px;
   text-align: center;
-}
 
-@media only screen and (min-width: 800px) {
-  .title-bar {
-    font-size: 2em;
+  @include tablet {
+    font-size: 30px;
+    
+  }
+
+  @include desktop {
+    font-size: 50px;
   }
 }

@@ -1,6 +1,7 @@
 .cool-image-with-box-buttons {
-  width: 100%;
+  width: 100vw;
   height: 185.3vw;
+  background: $md-blue-700;
 
   .float-container {
     position: absolute;
@@ -22,12 +23,4 @@
       width: 100%;
     }
   }  
-}
-
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) {
-  .cool-image-with-box-buttons {
-    // transform: translateY(10%);
-  }
 }

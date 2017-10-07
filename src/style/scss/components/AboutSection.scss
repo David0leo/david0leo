@@ -1,8 +1,36 @@
 .about-section {
   min-height: 100vh;
   // background: $md-green-700;
+  text-align: center;
 
   .title-bar {
     background: $md-green-700;
+  }
+
+  > img {
+    margin-top: 5%;
+    width: 30%;
+    
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+
+    @include tablet {
+      width: 20%;
+    }
+
+    @include desktop {
+      width: 20%;
+    }
+  }
+
+  p {
+    padding: 20px;
+  }
+
+  .bio {
+
+    > img {
+      width: 35%;
+    }
   }
 }

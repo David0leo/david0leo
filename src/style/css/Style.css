@@ -1,6 +1,7 @@
 .cool-image-with-box-buttons {
-  width: 100%;
-  height: 185.3vw; }
+  width: 100vw;
+  height: 185.3vw;
+  background: #1976d2; }
   .cool-image-with-box-buttons .float-container {
     position: absolute;
     top: 0px;
@@ -42,33 +43,65 @@
     background: #1976d2; }
 
 .about-section {
-  min-height: 100vh; }
+  min-height: 100vh;
+  text-align: center; }
   .about-section .title-bar {
     background: #388e3c; }
+  .about-section > img {
+    margin-top: 5%;
+    width: 30%;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4); }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .about-section > img {
+        width: 20%; } }
+    @media (min-width: 1024px) {
+      .about-section > img {
+        width: 20%; } }
+  .about-section p {
+    padding: 20px; }
+  .about-section .bio > img {
+    width: 35%; }
 
 .contact-section {
-  min-height: 100vh; }
+  min-height: 100vh;
+  text-align: center; }
   .contact-section .title-bar {
     background: #d32f2f; }
+  .contact-section .contact-option {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10%; }
+  .contact-section img {
+    width: 10%; }
 
 .title-bar {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   color: white;
-  font-size: 5vw;
+  font-size: 20px;
   padding: 10px;
   text-align: center; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .title-bar {
+      font-size: 30px; } }
+  @media (min-width: 1024px) {
+    .title-bar {
+      font-size: 50px; } }
 
-@media only screen and (min-width: 800px) {
-  .title-bar {
-    font-size: 2em; } }
 .work-card {
   min-width: 200px;
   max-width: 100%;
   box-shadow: 7px 7px 10px 5px rgba(0, 0, 0, 0.2);
   border-radius: 1em;
-  overflow: hidden;
   margin: 5%;
   border: 2px solid rgba(0, 0, 0, 0.2); }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .work-card {
+      max-width: 40%; } }
+  @media (min-width: 1024px) {
+    .work-card {
+      max-width: 25%; } }
   .work-card > img {
     width: 100%; }
   .work-card .work-card-body {
@@ -76,11 +109,22 @@
     padding: 5px;
     text-align: center; }
     .work-card .work-card-body h1 {
-      font-size: 1.5em; }
+      font-size: 20px; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .work-card .work-card-body h1 {
+          font-size: 25px; } }
+      @media (min-width: 1024px) {
+        .work-card .work-card-body h1 {
+          font-size: 30px; } }
     .work-card .work-card-body p {
-      font-size: 1em;
-      text-justify: left;
+      font-size: 16px;
       padding: 10px; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .work-card .work-card-body p {
+          font-size: 20px; } }
+      @media (min-width: 1024px) {
+        .work-card .work-card-body p {
+          font-size: 25px; } }
     .work-card .work-card-body a {
       text-align: center;
       outline: none; }
@@ -94,13 +138,5 @@
         background: rgba(0, 0, 0, 0.1); }
       .work-card .work-card-body a img:active {
         background: rgba(0, 0, 0, 0.2); }
-
-@media only screen and (min-width: 1200px) {
-  .work-card {
-    max-width: 25%; }
-    .work-card h1 {
-      font-size: 2em; }
-    .work-card p {
-      font-size: 1em; } }
 
 /*# sourceMappingURL=Style.css.map */
