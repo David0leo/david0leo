@@ -40,15 +40,17 @@ class App extends Component {
   }
 
   scrollToY = (yPos, speedMultiplier) => {
-    let i = 10;
-    let interval = setInterval(function() {
-      window.scrollTo(0, i);
-      i += window.innerHeight/50 * speedMultiplier;
-      if (i >= yPos) {
-        clearInterval(interval)
-        window.scrollTo(0, yPos)
-      }
-    }, 1);
+    window.scrollTo(0, yPos);
+    // //Maybe something to iterate on later
+    // let i = 10;
+    // let interval = setInterval(function() {
+    //   window.scrollTo(0, i);
+    //   i += window.innerHeight/50 * speedMultiplier;
+    //   if (i >= yPos) {
+    //     clearInterval(interval)
+    //     window.scrollTo(0, yPos)
+    //   }
+    // }, 1);
   }
 }
 

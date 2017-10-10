@@ -8,6 +8,39 @@
   role="img"
 >
   <path
+    d="M5 5L95 5L95 95L5 95L5 5Z"
+    fill-opacity="0"
+    stroke="#ff9800"
+    stroke-opacity="1"
+    stroke-width="1"
+  >
+  </path>
+  <text
+    x="85"
+    y="20"
+    fill="#ff9800"
+  >
+    <!-- <animate
+      attributeName="opacity"
+      id="question-mark-fade-out"
+      from="1"
+      to="0"
+      dur="1s"
+      begin="0s;question-mark-fade-out.end+1s"
+      fill="freeze"
+    />
+    <animate
+      attributeName="opacity"
+      id="question-mark-fade-in"
+      from="0"
+      to="1"
+      dur="1s"
+      begin="1s;question-mark-fade-in.end+1s"
+      fill="freeze"
+    /> -->
+  ?
+  </text>
+  <path
     d="M45.65 59.23L41.4 64.54C42.95 64.4 44.37 64.52 45.65 64.88C46.1 65 46.48 64.87 46.81 65.15C47.44 65.69 47.8 66.45 47.9 67.44C47.64 67.46 47.19 67.04 46.56 66.17C45.62 64.88 42.89 65.29 40.71 65.36C39.46 65.39 38.06 65.32 36.99 65.55C36.18 65.72 34.81 67.73 35.03 66.65C35.21 65.74 36.23 64.81 37.14 64.54C37.87 64.32 38.7 64.41 39.63 64.82C39.71 64.86 39.8 64.84 39.85 64.77C40.17 64.37 40.98 63.37 42.27 61.76L44.96 58.41L45.65 59.23Z"
     fill="#1e88e5"
     opacity="0"
@@ -26,7 +59,7 @@
       attributeName="opacity"
       from="1"
       to="0"
-      dur="0.5"
+      dur="0.5s"
       begin="bird-animate-9.end+1s"
       fill="freeze"
     />
@@ -49,7 +82,7 @@
       attributeName="opacity"
       from="1"
       to="0"
-      dur="0.5"
+      dur="0.5s"
       begin="bird-animate-9.end+1s"
       fill="freeze"
     />
@@ -72,7 +105,7 @@
       attributeName="opacity"
       from="1"
       to="0"
-      dur="0.5"
+      dur="0.5s"
       begin="bird-animate-9.end+1s"
       fill="freeze"
     />
@@ -95,7 +128,7 @@
       attributeName="opacity"
       from="1"
       to="0"
-      dur="0.5"
+      dur="0.5s"
       begin="bird-animate-9.end+1s"
       fill="freeze"
     />
@@ -118,7 +151,7 @@
       attributeName="opacity"
       from="1"
       to="0"
-      dur="0.5"
+      dur="0.5s"
       begin="bird-animate-9.end+1s"
       fill="freeze"
     />
@@ -142,7 +175,7 @@
       attributeName="opacity"
       from="1"
       to="0"
-      dur="0.5"
+      dur="0.5s"
       begin="bird-animate-9.end+1s"
       fill="freeze"
     />
@@ -166,7 +199,7 @@
       attributeName="opacity"
       from="1"
       to="0"
-      dur="0.5"
+      dur="0.5s"
       begin="bird-animate-9.end+1s"
       fill="freeze"
     />
@@ -190,7 +223,7 @@
       attributeName="opacity"
       from="1"
       to="0"
-      dur="0.5"
+      dur="0.5s"
       begin="bird-animate-9.end+1s"
       fill="freeze"
     />

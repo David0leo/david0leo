@@ -8,11 +8,27 @@
   }
 
   .contact-option {
-    width: 100%;
+    width: 80%;
+    height: 3em;
     text-align: center;
     vertical-align: middle;
     margin-top: 10%;
+    margin-left: 10%;
+    border: 1px solid black;
+    border-radius: 1em;
+    display: table;
+    padding: 1% 0 1% 0;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
   }
+
+  a {
+    display: table-cell;
+    height: 80%;
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+  }
+
   img {
     width: 10%;
   }
