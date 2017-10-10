@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ReactDOM from 'react-dom';
-import "./App.css";
 import "./style/css/Style.css";
 import CoolImageWithBoxButtons from "./components/CoolImageWithBoxButtons";
 import WorkSection from './components/WorkSection';
@@ -8,9 +7,6 @@ import AboutSection from './components/AboutSection';
 import ContactSection from './components/ContactSection';
 
 class App extends Component {
-  state= {
-    on: true
-  }
 
 	render() {
 		return (
@@ -23,6 +19,7 @@ class App extends Component {
         <WorkSection ref="work"/>
         <AboutSection ref="about"/>
         <ContactSection ref="contact"/>
+        <div className="footer"></div>
 			</div>
 		);
   }

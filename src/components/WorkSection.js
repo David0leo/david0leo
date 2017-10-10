@@ -61,7 +61,7 @@ class WorkSection extends React.Component {
 					}
 				/>
 				<WorkCard
-					imgSrc={require('../images/work_cards/dlnd/face_gen.svg')}
+					imgSrc={require('../images/work_cards/dlnd/faces.svg')}
 					header={'Celebrity Faces Generator'}
 					details={
 						'Generative adversarial network trained on CelebA dataset of celebrity faces to generate new faces.'

@@ -1,0 +1,12 @@
+.footer {
+  height: 50px;
+  width: 100%;
+
+  @include tablet {
+    height: 100px;
+  }
+
+  @include desktop {
+    height: 150px;
+  }
+}

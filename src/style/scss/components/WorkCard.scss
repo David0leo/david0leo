@@ -1,18 +1,23 @@
 .work-card {
 	min-width: 200px;
 	max-width: 100%;
-	box-shadow: 7px 7px 10px 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
 	border-radius: 1em;
 	// overflow: hidden;
   margin: 5%;
 	border: 2px solid rgba(0, 0, 0, 0.2);
+	display: inline-block;
 	
 	@include tablet {
 		max-width: 40%;
+		margin-right: 30px;
+		margin-left: 30px;
 	}
 
 	@include desktop {
-		max-width: 25%;
+		max-width: 20%;
+		margin-right: 100px;
+		margin-left: 100px;
 	}
 
 	> img {
@@ -27,11 +32,11 @@
 		h1 {
 			font-size: 20px;
 			@include tablet {
-				font-size: 25px;
+				font-size: 3vw;
 			}
 
 			@include desktop {
-				font-size: 30px;
+				font-size: 3vw;
 			}
 		}
 
@@ -39,11 +44,11 @@
 			font-size: 16px;
 			padding: 10px;
 			@include tablet {
-				font-size: 20px;
+				font-size: 2vw;
 			}
 
 			@include desktop {
-				font-size: 25px;
+				font-size: 2vw;
 			}
 		}
 		a {
@@ -56,8 +61,16 @@
         border: 2px solid black;
         border-radius: 1em;
         width: 20%;
-        transition: background 0.2s ease;
-      }
+				transition: background 0.2s ease;
+				
+				@include tablet {
+					width: 30%;
+				}
+
+				@include desktop {
+					width: 30%;
+				}
+			}
       
       img:hover {
         background: rgba(0, 0, 0, 0.1);
