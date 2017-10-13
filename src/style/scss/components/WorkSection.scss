@@ -4,5 +4,11 @@
 
   .title-bar {
     background: $md-blue-700;
+    
+  }
+  .work-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }

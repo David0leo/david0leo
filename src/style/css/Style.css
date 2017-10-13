@@ -51,6 +51,10 @@
   min-height: 100vh; }
   .work-section .title-bar {
     background: #1976d2; }
+  .work-section .work-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
 
 .about-section {
   min-height: 100vh;
@@ -78,18 +82,26 @@
   text-align: center; }
   .contact-section .title-bar {
     background: #d32f2f; }
+  .contact-section .contact-options {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-around; }
   .contact-section .contact-option {
     width: 80%;
     height: 3em;
     text-align: center;
     vertical-align: middle;
     margin-top: 10%;
-    margin-left: 10%;
-    border: 1px solid black;
     border-radius: 1em;
     display: table;
     padding: 1% 0 1% 0;
-    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2); }
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(0, 0, 0, 0.2); }
+    @media (min-width: 1024px) {
+      .contact-section .contact-option {
+        width: 40%;
+        margin-top: 5%; } }
   .contact-section a {
     display: table-cell;
     height: 80%;
@@ -114,22 +126,24 @@
 
 .work-card {
   min-width: 200px;
-  max-width: 100%;
+  max-width: 90%;
   box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
   border-radius: 1em;
-  margin: 5%;
   border: 2px solid rgba(0, 0, 0, 0.2);
-  display: inline-block; }
+  display: inline-block;
+  margin-top: 10%;
+  margin-bottom: 10%; }
   @media (min-width: 768px) and (max-width: 1023px) {
     .work-card {
       max-width: 40%;
-      margin-right: 30px;
-      margin-left: 30px; } }
+      margin-top: 5%;
+      margin-bottom: 5%; } }
   @media (min-width: 1024px) {
     .work-card {
-      max-width: 20%;
-      margin-right: 100px;
-      margin-left: 100px; } }
+      max-width: 30%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      max-height: 50vw; } }
   .work-card > img {
     width: 100%; }
   .work-card .work-card-body {
@@ -152,7 +166,7 @@
           font-size: 2vw; } }
       @media (min-width: 1024px) {
         .work-card .work-card-body p {
-          font-size: 2vw; } }
+          font-size: 100%; } }
     .work-card .work-card-body a {
       text-align: center;
       outline: none; }

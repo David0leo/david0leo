@@ -1,23 +1,30 @@
 .work-card {
 	min-width: 200px;
-	max-width: 100%;
+	max-width: 90%;
 	box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
 	border-radius: 1em;
 	// overflow: hidden;
-  margin: 5%;
+  // margin: 5%;
 	border: 2px solid rgba(0, 0, 0, 0.2);
 	display: inline-block;
+	margin-top: 10%;
+	margin-bottom: 10%;
 	
 	@include tablet {
 		max-width: 40%;
-		margin-right: 30px;
-		margin-left: 30px;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		// margin-right: 30px;s
+		// margin-left: 30px;
 	}
 
 	@include desktop {
-		max-width: 20%;
-		margin-right: 100px;
-		margin-left: 100px;
+		max-width: 30%;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		max-height: 50vw;
+		// margin-right: 100px;
+		// margin-left: 100px;
 	}
 
 	> img {
@@ -48,7 +55,7 @@
 			}
 
 			@include desktop {
-				font-size: 2vw;
+				font-size: 100%;
 			}
 		}
 		a {
