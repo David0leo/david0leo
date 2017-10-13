@@ -1,7 +1,22 @@
 {
-  "main.css": "static/css/main.aa8bc94c.css",
-  "main.css.map": "static/css/main.aa8bc94c.css.map",
-  "main.js": "static/js/main.7a94843f.js",
-  "main.js.map": "static/js/main.7a94843f.js.map",
-  "static/media/extended.png": "static/media/extended.f4e90cdc.png"
+  "main.css": "static/css/main.989bd788.css",
+  "main.css.map": "static/css/main.989bd788.css.map",
+  "main.js": "static/js/main.5f7464e1.js",
+  "main.js.map": "static/js/main.5f7464e1.js.map",
+  "static/media/bike_graph.svg": "static/media/bike_graph.15e042c1.svg",
+  "static/media/ca.svg": "static/media/ca.5016c330.svg",
+  "static/media/edmonton_alberta.svg": "static/media/edmonton_alberta.8511045b.svg",
+  "static/media/extended.png": "static/media/extended.f4e90cdc.png",
+  "static/media/face.jpg": "static/media/face.410ac7c6.jpg",
+  "static/media/faces.svg": "static/media/faces.df1f5ae8.svg",
+  "static/media/github.svg": "static/media/github.f0399a1c.svg",
+  "static/media/github_icon.svg": "static/media/github_icon.ff66eb8e.svg",
+  "static/media/gmail.svg": "static/media/gmail.e3720a06.svg",
+  "static/media/image_classification.svg": "static/media/image_classification.cb440cee.svg",
+  "static/media/instagram.svg": "static/media/instagram.fbae9d49.svg",
+  "static/media/linkedin.svg": "static/media/linkedin.bc8e55bb.svg",
+  "static/media/myreads.svg": "static/media/myreads.5cb03e2f.svg",
+  "static/media/readable.svg": "static/media/readable.5cb03e2f.svg",
+  "static/media/translate.svg": "static/media/translate.5cb03e2f.svg",
+  "static/media/tv_scripts.svg": "static/media/tv_scripts.5cb03e2f.svg"
 }

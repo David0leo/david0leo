@@ -1,5 +1,6 @@
 {
   "projects": {
-    "personal-site": "waterdoglandfish-168800"
+    "personal-site": "waterdoglandfish-168800",
+    "default": "waterdoglandfish-168800"
   }
 }
