@@ -9,7 +9,7 @@
     left: 0px;
     width: 100%;
 
-    h1 {
+    > h1 {
       padding-top: 10%;
       position: absolute;
       width: 100%;
@@ -17,7 +17,7 @@
       font-size: 5vw;
     }
 
-    img {
+    > img {
       background-size: cover;
       position: absolute;
       width: 100%;
